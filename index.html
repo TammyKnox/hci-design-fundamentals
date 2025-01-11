@@ -1,5 +1,11 @@
+<!--
+Author: Tammy Knox - tammyelizabethk.com
+HCI 472: Human-Computer Interaction Design Fundamentals
+Professor: Cynthia Putnam
+-->
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <title>Tammy Knox | HCI Design Fundamentals II</title>
@@ -9,10 +15,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="assets/script.js"></script>
   </head>
+
   <body>
     <!-- Content -->
     <header>
-      <h1>Tammy-Elizabeth Knox</h1>
+      <h1>Tammy Knox</h1>
     </header>
+
+    <!--<main>
+      <h2>Human-Compute Interaction Design Fundamentals II</h2>
+    </main>-->
+
+    <footer><p>&copy; All Rights Reservered. <span id="currentYear">x</span>. <a href="https://tammyelizabethk.com" target="_blank">Tammy-Elizabeth Knox</a></p></footer>
   </body>
+  
+  <script>
+    var currentYear = new Date().getFullYear(); //variable containing current year
+    document.getElementById("currentYear").innerHTML = currentYear; //set specified HTML element to currentYear variable
+    </script>
 </html>
