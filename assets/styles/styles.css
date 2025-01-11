@@ -14,7 +14,6 @@
 
 * {
     margin: 0;
-    font-size:16px;
   }
 
   a:link{
@@ -45,7 +44,7 @@ body{
 
 h1 {
     font-weight:700;
-    font-size: 4rem;
+    font-size: 60px;
     text-transform:uppercase;
 }
 
@@ -60,7 +59,7 @@ h1::before{
 
 h2{
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 32px;
 }
 
 header{
@@ -81,7 +80,7 @@ main{
 }
 
 footer{
-    padding:1em;
+    padding:18px;
     height:5vh;
     text-align:center;
     margin:0px;
@@ -94,6 +93,6 @@ footer p{
 
 @media only screen and (max-width: 768px) {
     h1{
-        font-size:3rem;
+        font-size:40px;
     }
   }
