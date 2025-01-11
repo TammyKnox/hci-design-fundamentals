@@ -40,11 +40,12 @@ body{
     font-weight:300;
     font-style:normal;
     height:100vh;
+    font-size:16px;
 }
 
 h1 {
     font-weight:700;
-    font-size: 60px;
+    font-size: 4rem;
     text-transform:uppercase;
 }
 
@@ -59,7 +60,7 @@ h1::before{
 
 h2{
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 header{
@@ -80,19 +81,35 @@ main{
 }
 
 footer{
-    padding:18px;
+    padding-bottom:40px;
     height:5vh;
     text-align:center;
-    margin:0px;
-}
-footer p{
-    position: bottom;
+    margin:0em;
+    font-size:1rem;
 }
 
 /*Media Queries*/
 
 @media only screen and (max-width: 768px) {
+    header{
+        padding:1.25em;
+    }
+
     h1{
-        font-size:40px;
+        font-size:3rem;
+    }
+  }
+
+  @media only screen and (min-width: 2560px) {
+    h1{
+        font-size:8rem;
+    }
+    
+    h1::before{
+        font-size:2rem;
+    }
+
+    footer{
+        font-size:2rem;
     }
   }
