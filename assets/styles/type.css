@@ -17,9 +17,32 @@
      margin: 0;
    }
 
+a{
+    text-decoration:none;
+    color:#fff;
+}
+.subtext > a{
+    color:#1d8de9;
+}
+a:hover{
+    color:#dc7853;
+
+}
+
+a:active{
+    color:#dc7853;
+
+}
+a.active{
+    color:#dc7853;
+}
+
 p{
     font-size:16px;
 }
+
+/*Alegreya Sans*/
+
    .alegreya-sans{
     font-family: "Alegreya Sans", serif;
     font-weight: 500;
@@ -44,3 +67,105 @@ h4.alegreya-sans{
 p.alegreya-sans{
     font-size: 1rem;
 }
+
+/*Fraunces & Urbanist*/
+
+.fraunces {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+.urbanist {
+  font-family: "Urbanist", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1.fraunces{
+    font-size: 2.986rem;
+}
+
+h2.fraunces{
+    font-size: 2.488rem;
+}
+
+h3.fraunces{
+    font-size: 2.074rem;
+}
+
+h4.fraunces{
+    font-size: 1.728rem;
+}
+
+p.urbanist{
+    font-size: 1rem;
+}
+
+/* DM Sans & Trirong */
+.trirong-medium {
+    font-family: "Trirong", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.dm-sans {
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1.dm-sans{
+    font-size: 3.815rem;
+}
+
+h2.dm-sans{
+    font-size: 3.052rem;
+}
+
+h3.dm-sans{
+    font-size: 2.441rem;
+}
+
+h4.dm-sans{
+    font-size: 1.953rem;
+}
+
+p.trirong-medium{
+    font-size: 1rem;
+}
+/*Override Styles*/
+
+.bg-body-tertiary{
+    background-color:#33062b !important;
+}
+
+a.nav-link{
+    color:#fff;
+}
+
+.navbar-nav .nav-link.active{
+    color:#dc7853;
+}
+
+.navbar-nav .nav-link:hover{
+    color:#dc7853;
+}
+
+.navbar-brand{
+    color:#fff;
+}
+
+.navbar-brand:hover{
+    color:#dc7853;
+}
+.nav-link.show{
+    color:#dc7853 !important;
+}
+
