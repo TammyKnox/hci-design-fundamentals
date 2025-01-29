@@ -41,6 +41,7 @@ p{
     font-size:16px;
 }
 
+
 /*Alegreya Sans*/
 
    .alegreya-sans{
@@ -140,6 +141,18 @@ h4.dm-sans{
 p.trirong-medium{
     font-size: 1rem;
 }
+
+.page-title{
+    font-size: 3rem !important;
+}
+
+.title-page{
+    font-family:"DM Sans", serif;
+    font-weight: 900;
+    font-style:normal;
+    font-size:5rem;
+}
+
 /*Override Styles*/
 
 .bg-body-tertiary{
