@@ -1,0 +1,72 @@
+/**
+ * Main CSS Styles by Tammy Knox
+ * This file was created for DePaul's HCI-472 HCI Design Fundamentals Course.
+ * Not for duplication.
+ * Assignment: Finalized logos
+ **/
+
+ a{
+    text-decoration:none;
+    color:#6C418D;
+}
+
+a:hover{
+    color:#dc7853;
+
+}
+
+a:active{
+    color:#dc7853;
+
+}
+
+ .card-img-top{
+    width:150px;
+    text-align:center;
+    margin:auto;
+ }
+
+ .secondary{
+    width:75px;
+ }
+
+ .favicon{
+    width:32px;
+ }
+
+ .card{
+    padding-top: 2em;
+ }
+ .card.colors{
+    padding-top:0px;
+ }
+
+ h5{
+    font-size: 1.2rem;
+ }
+
+ h1.title-page{
+    font-size: 3rem;
+ }
+
+ footer{
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+ }
+ .card-text{
+    display:none;
+ }
+
+ .color-scheme{
+    width: 100%;
+    min-height: 50px;
+ }
+
+ .dark-purple{
+    background-color:#6C418D;
+ }
+
+ .light-purple{
+    background-color:#F5E9FE;
+ }
